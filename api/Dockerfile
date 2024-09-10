@@ -1,7 +1,7 @@
 FROM python:3.4
-MAINTAINER glyif <122@holbertonschool.com>
+MAINTAINER kj-omar <mrmihabi2004@gmail.com>
 
-RUN git clone https://github.com/glyif/AirBnB_clone_v3.git ~/AirBnB
+RUN git clone https://github.com/kj-omar/AirBnB_clone_v3.git ~/AirBnB
 WORKDIR /root/AirBnB
 RUN pip install -r requirements.txt
 
